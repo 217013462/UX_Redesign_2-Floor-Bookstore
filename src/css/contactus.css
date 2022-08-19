@@ -1,0 +1,159 @@
+.p3 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.p4 {
+  margin: 0;
+}
+.div124 {
+  position: absolute;
+  top: 70px;
+  left: 1012.29px;
+  line-height: 140%;
+  color: #285497;
+  display: inline-block;
+  width: 291.54px;
+}
+.b3,
+.buttondefault16,
+.div125 {
+  width: 120px;
+  position: absolute;
+  top: 617px;
+  left: 365px;
+}
+.b3,
+.div125 {
+  top: 0;
+  left: 0;
+  line-height: 140%;
+  display: inline-block;
+  width: 455.53px;
+}
+.b3 {
+  left: 54.66px;
+  color: #2e3a59;
+  width: 72.89px;
+  cursor: pointer;
+}
+.div126,
+.group-div29 {
+  position: absolute;
+  color: #285497;
+}
+.group-div29 {
+  top: 70px;
+  left: 80.98px;
+  width: 455.53px;
+  height: 50px;
+}
+.div126 {
+  top: 0;
+  left: 0;
+  font-size: 32px;
+  line-height: 140%;
+  display: inline-block;
+  width: 129.57px;
+}
+.mail-icon,
+.telephone-call-icon,
+.whatsapp-icon {
+  position: absolute;
+  top: 213px;
+  left: 1012.29px;
+  width: 30.37px;
+  height: 30px;
+  object-fit: cover;
+}
+.telephone-call-icon,
+.whatsapp-icon {
+  top: 138px;
+}
+.telephone-call-icon {
+  top: 288px;
+}
+.div127,
+.div128,
+.div129,
+.e-mail-cs2-floorcom-div,
+.whatsapp-66448238-div {
+  position: absolute;
+  top: 140px;
+  left: 1054.81px;
+  line-height: 140%;
+  display: inline-block;
+  width: 195.37px;
+}
+.div127,
+.div128,
+.div129,
+.e-mail-cs2-floorcom-div {
+  top: 365px;
+  width: 345.19px;
+}
+.div128,
+.div129,
+.e-mail-cs2-floorcom-div {
+  top: 435px;
+  width: 322.92px;
+}
+.div129,
+.e-mail-cs2-floorcom-div {
+  top: 215px;
+  width: 222.7px;
+}
+.div129 {
+  top: 290px;
+  width: 173.1px;
+}
+.customer-service-1-icon,
+.location-1-icon {
+  position: absolute;
+  top: 363px;
+  left: 1012.29px;
+  width: 30.37px;
+  height: 30px;
+  object-fit: cover;
+}
+.customer-service-1-icon {
+  top: 438px;
+}
+.inputstandard-formgroup,
+.inputstandard-formgroup1 {
+  width: 700px;
+  border: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 181px;
+  left: 79px;
+}
+.inputstandard-formgroup1 {
+  top: 262px;
+}
+.textareastandard-formgroup {
+  width: 700px;
+  position: absolute;
+  top: 343px;
+  left: 81px;
+}
+.group-div28 {
+  position: relative;
+  width: 1400px;
+  height: 653px;
+  flex-shrink: 0;
+}
+.contactus-div {
+  position: relative;
+  background-color: #fff;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 100px 260px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: 18px;
+  color: #2e3a59;
+  font-family: Merriweather;
+}

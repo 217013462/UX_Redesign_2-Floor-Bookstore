@@ -5,7 +5,6 @@ import Homepage from './components/Homepage'
 import BestSelling from './components/BestSelling'
 import HotDeal from './components/HotDeal'
 import NewRelease from './components/NewRelease'
-import ShoppingCart from './components/ShoppingCart'
 import Member from './components/Member'
 import FAQ from './components/FAQ'
 import BookDetail from './components/BookDetail'
@@ -112,7 +111,6 @@ export default function App() {
             <Route path="/best-selling" element={<BestSelling />} />
             <Route path="/new-release" element={<NewRelease />} />
             <Route path="/hot-deal" element={<HotDeal />} />
-            <Route path="/shopping-cart" element={<ShoppingCart />} />
             <Route path="/member" element={<Member />} />
             <Route path="/member-my-account" element={<MemberMyAccount />} />
             <Route path="/faq" element={<FAQ />} />
@@ -128,7 +126,6 @@ export default function App() {
             <Route path="/search" element={<Search />} />
             <Route path="/search-no-result" element={<SearchNoResult />} />
             <Route path="/search-sent-form" element={<SearchSentForm />} />
-            <Route path="/shopping-cart" element={<ShoppingCart />} />
             <Route path="/shopping-cart-confirmation" element={<ShoppingCartConfirmation />} />
             <Route path="/shopping-cart-info" element={<ShoppingCartInfo />} />
             <Route path="/shopping-cart-nothing" element={<ShoppingCartNothing />} />
@@ -161,5 +158,3 @@ export default function App() {
     </>
   )
 }
-
-//https://bootswatch.com/yeti/

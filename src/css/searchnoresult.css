@@ -1,0 +1,215 @@
+.div160 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 140%;
+  display: inline-block;
+}
+.span24 {
+  color: #ff2121;
+}
+.div161 {
+  position: absolute;
+  top: 70px;
+  left: 80px;
+  font-size: 15px;
+  line-height: 140%;
+  font-family: Roboto;
+  display: inline-block;
+}
+.book-hon-no-mushi-woman-1-icon1 {
+  position: absolute;
+  top: 130px;
+  left: 80px;
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+}
+.span26 {
+  color: #285497;
+}
+.span27 {
+  color: #8f9bb3;
+}
+.p20 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.p21 {
+  margin: 0;
+}
+.div162 {
+  position: absolute;
+  top: 160px;
+  left: 550px;
+  font-size: 18px;
+  line-height: 140%;
+  white-space: pre-wrap;
+  display: inline-block;
+  width: 700px;
+  height: 50px;
+}
+.buttonsprimary7 {
+  width: 120px;
+  position: absolute;
+  top: 585px;
+  left: 250px;
+  cursor: pointer;
+}
+.input-text-fieldno-label11 {
+  width: 634px;
+  border: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.input-text-fieldno-label12 {
+  top: 75px;
+}
+.input-text-fieldno-label12,
+.input-text-fieldno-label13,
+.input-text-fieldno-label14 {
+  width: 634px;
+  border: 0;
+  background-color: transparent;
+  position: absolute;
+  left: 0;
+}
+.input-text-fieldno-label13 {
+  top: 150px;
+}
+.input-text-fieldno-label14 {
+  top: 225px;
+}
+.field-div20 {
+  position: absolute;
+  left: 0;
+}
+.input-text-fieldno-label15 {
+  top: 315px;
+}
+.input-text-fieldno-label15,
+.input-text-fieldno-label16,
+.input-text-fieldno-label17 {
+  width: 634px;
+  border: 0;
+  background-color: transparent;
+  position: absolute;
+  left: 0;
+}
+.input-text-fieldno-label16 {
+  top: 465px;
+}
+.input-text-fieldno-label17 {
+  top: 390px;
+}
+.field-div20 {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 6px;
+  background-color: #eaeaea;
+  border: 1px solid #d4d4d4;
+  box-sizing: border-box;
+}
+.placeholder-text-div18 {
+  position: absolute;
+  top: calc(50% - 8px);
+  left: 12px;
+  display: inline-block;
+}
+.input-text-fielddisabled1 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: none;
+}
+.field-div21 {
+  border-radius: 6px;
+  background-color: #fff;
+  border: 1px solid #eb5757;
+  box-sizing: border-box;
+}
+.field-div21,
+.field-div22,
+.input-text-fieldfocused-and-t1 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.field-div22 {
+  border-radius: 6px;
+  background-color: #fff;
+  border: 1px solid #3fa2f7;
+  box-sizing: border-box;
+}
+.input-text-fieldfocused-and-t1 {
+  display: none;
+  color: #333;
+}
+.field-div23 {
+  border-radius: 6px;
+  background-color: #fff;
+  border: 1px solid #d4d4d4;
+  box-sizing: border-box;
+}
+.field-div23,
+.input-text-fielddefault1 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.input-text-fieldno-label18 {
+  position: absolute;
+  top: 465px;
+  left: 0;
+  width: 634px;
+  height: 30px;
+  display: none;
+}
+.group-div43 {
+  position: absolute;
+  top: 240px;
+  left: 550px;
+  width: 634px;
+  height: 620px;
+  font-size: 14px;
+  color: #959595;
+  font-family: Roboto;
+}
+.group-div42 {
+  position: relative;
+  width: 1250px;
+  height: 860px;
+  flex-shrink: 0;
+}
+.searchnoresult-div {
+  position: relative;
+  background-color: #fff;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 150px 380px 150px 290px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: 32px;
+  color: #285497;
+  font-family: Merriweather;
+}

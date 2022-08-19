@@ -4,31 +4,31 @@ import { useNavigate, Link  } from "react-router-dom"
 import "../css/fiction1.css"
 
 const Fiction1 = () => {
-  const navigate = useNavigate();
+  const navigate = useNavigate()
 
   const onText18Click = useCallback(() => {
-    navigate("/bestselling");
-  }, [navigate]);
+    navigate("/best-selling")
+  }, [navigate])
 
   const onGroupIcon1Click = useCallback(() => {
-    navigate("/fiction3");
-  }, [navigate]);
+    navigate("/fiction3")
+  }, [navigate])
 
   const onText79Click = useCallback(() => {
-    navigate("/fiction1");
-  }, [navigate]);
+    navigate("/fiction1")
+  }, [navigate])
 
   const onText80Click = useCallback(() => {
-    navigate("/fiction2");
-  }, [navigate]);
+    navigate("/fiction2")
+  }, [navigate])
 
   const onText81Click = useCallback(() => {
-    navigate("/fiction3");
-  }, [navigate]);
+    navigate("/fiction3")
+  }, [navigate])
 
   const onIconsArrowDrodpdownClick = useCallback(() => {
-    navigate("/fiction2");
-  }, [navigate]);
+    navigate("/fiction2")
+  }, [navigate])
 
   return (
     <>
@@ -107,7 +107,7 @@ const Fiction1 = () => {
                 <img
                   className="book-cover-icon154"
                   alt=""
-                  src="./img/fiction1-cover154@2x.png"
+                  src="./img/fiction1/book-cover154@2x.png"
                 />
               </div>
               <Button className="buttondefault153" variant="primary">
@@ -126,7 +126,7 @@ const Fiction1 = () => {
                 <img
                   className="book-cover-icon154"
                   alt=""
-                  src="./img/fiction1-cover155@2x.png"
+                  src="./img/fiction1/book-cover155@2x.png"
                 />
               </div>
               <Button className="buttondefault153" variant="primary">
@@ -145,7 +145,7 @@ const Fiction1 = () => {
                 <img
                   className="book-cover-icon154"
                   alt=""
-                  src="./img/fiction1-cover156@2x.png"
+                  src="./img/fiction1/book-cover156@2x.png"
                 />
               </div>
               <Button className="buttondefault153" variant="primary">
@@ -164,7 +164,7 @@ const Fiction1 = () => {
                 <img
                   className="book-cover-icon154"
                   alt=""
-                  src="./img/fiction1-cover157@2x.png"
+                  src="./img/fiction1/book-cover157@2x.png"
                 />
               </div>
               <Button className="buttondefault153" variant="primary">
@@ -183,7 +183,7 @@ const Fiction1 = () => {
                 <img
                   className="book-cover-icon154"
                   alt=""
-                  src="./img/fiction1-cover158@2x.png"
+                  src="./img/fiction1/book-cover158@2x.png"
                 />
               </div>
               <Button className="buttondefault153" variant="primary">
@@ -204,7 +204,7 @@ const Fiction1 = () => {
                 <img
                   className="book-cover-icon154"
                   alt=""
-                  src="./img/fiction1-cover159@2x.png"
+                  src="./img/fiction1/book-cover159@2x.png"
                 />
               </div>
               <Button className="buttondefault153" variant="primary">
@@ -223,7 +223,7 @@ const Fiction1 = () => {
                 <img
                   className="book-cover-icon154"
                   alt=""
-                  src="./img/fiction1-cover160@2x.png"
+                  src="./img/fiction1/book-cover160@2x.png"
                 />
               </div>
               <Button className="buttondefault153" variant="primary">
@@ -242,7 +242,7 @@ const Fiction1 = () => {
                 <img
                   className="book-cover-icon154"
                   alt=""
-                  src="./img/fiction1-cover161@2x.png"
+                  src="./img/fiction1/book-cover161@2x.png"
                 />
               </div>
               <Button className="buttondefault153" variant="primary">
@@ -261,7 +261,7 @@ const Fiction1 = () => {
                 <img
                   className="book-cover-icon154"
                   alt=""
-                  src="./img/fiction1-cover162@2x.png"
+                  src="./img/fiction1/book-cover162@2x.png"
                 />
               </div>
               <Button className="buttondefault153" variant="primary">
@@ -280,7 +280,7 @@ const Fiction1 = () => {
                 <img
                   className="book-cover-icon154"
                   alt=""
-                  src="./img/fiction1-cover163@2x.png"
+                  src="./img/fiction1/book-cover163@2x.png"
                 />
               </div>
               <Button className="buttondefault153" variant="primary">
@@ -301,7 +301,7 @@ const Fiction1 = () => {
                 <img
                   className="book-cover-icon154"
                   alt=""
-                  src="./img/fiction1-cover164@2x.png"
+                  src="./img/fiction1/book-cover164@2x.png"
                 />
               </div>
               <Button className="buttondefault153" variant="primary">
@@ -320,7 +320,7 @@ const Fiction1 = () => {
                 <img
                   className="book-cover-icon154"
                   alt=""
-                  src="./img/fiction1-cover165@2x.png"
+                  src="./img/fiction1/book-cover165@2x.png"
                 />
               </div>
               <Button className="buttondefault153" variant="primary">
@@ -339,7 +339,7 @@ const Fiction1 = () => {
                 <img
                   className="book-cover-icon154"
                   alt=""
-                  src="./img/fiction1-cover166@2x.png"
+                  src="./img/fiction1/book-cover166@2x.png"
                 />
               </div>
               <Button className="buttondefault153" variant="primary">
@@ -358,7 +358,7 @@ const Fiction1 = () => {
                 <img
                   className="book-cover-icon154"
                   alt=""
-                  src="./img/fiction1-cover167@2x.png"
+                  src="./img/fiction1/book-cover167@2x.png"
                 />
               </div>
               <Button className="buttondefault153" variant="primary">
@@ -377,7 +377,7 @@ const Fiction1 = () => {
                 <img
                   className="book-cover-icon154"
                   alt=""
-                  src="./img/fiction1-cover168@2x.png"
+                  src="./img/fiction1/book-cover168@2x.png"
                 />
               </div>
               <Button className="buttondefault153" variant="primary">
@@ -398,7 +398,7 @@ const Fiction1 = () => {
                 <img
                   className="book-cover-icon154"
                   alt=""
-                  src="./img/fiction1-cover169@2x.png"
+                  src="./img/fiction1/book-cover169@2x.png"
                 />
               </div>
               <Button className="buttondefault153" variant="primary">
@@ -419,7 +419,7 @@ const Fiction1 = () => {
                 <img
                   className="book-cover-icon154"
                   alt=""
-                  src="./img/fiction1-cover170@2x.png"
+                  src="./img/fiction1/book-cover170@2x.png"
                 />
               </div>
               <Button className="buttondefault153" variant="primary">
@@ -438,7 +438,7 @@ const Fiction1 = () => {
                 <img
                   className="book-cover-icon154"
                   alt=""
-                  src="./img/fiction1-cover171@2x.png"
+                  src="./img/fiction1/book-cover171@2x.png"
                 />
               </div>
               <Button className="buttondefault153" variant="primary">
@@ -457,7 +457,7 @@ const Fiction1 = () => {
                 <img
                   className="book-cover-icon154"
                   alt=""
-                  src="./img/fiction1-cover172@2x.png"
+                  src="./img/fiction1/book-cover172@2x.png"
                 />
               </div>
               <Button className="buttondefault153" variant="primary">
@@ -476,7 +476,7 @@ const Fiction1 = () => {
                 <img
                   className="book-cover-icon154"
                   alt=""
-                  src="./img/fiction1-cover173@2x.png"
+                  src="./img/fiction1/book-cover173@2x.png"
                 />
               </div>
               <Button className="buttondefault153" variant="primary">
@@ -485,11 +485,11 @@ const Fiction1 = () => {
             </div>
           </div>
           <div className="group-div190">
-            <img className="group-icon14" alt="" src="group-151.svg" />
+            <img className="group-icon14" alt="" src="./img/fiction1/group-151.svg" />
             <img
               className="group-icon15"
               alt=""
-              src="group-161.svg"
+              src="./img/fiction1/group-161.svg"
               onClick={onGroupIcon1Click}
             />
             <div className="paginationnumbered-div8">
@@ -505,22 +505,22 @@ const Fiction1 = () => {
               <img
                 className="icons-arrow-drodpdown18"
                 alt=""
-                src="icons--arrowdrodpdown1.svg"
+                src="./img/fiction1/icons--arrowdrodpdown1.svg"
                 onClick={onIconsArrowDrodpdownClick}
               />
               <img
                 className="icons-arrow-drodpdown19"
                 alt=""
-                src="icons--arrowdrodpdown3.svg"
+                src="./img/fiction1/icons--arrowdrodpdown3.svg"
               />
-              <img className="active-icon9" alt="" src="active1.svg" />
+              <img className="active-icon9" alt="" src="./img/fiction1/active1.svg" />
             </div>
           </div>
         </div>
         <div className="sub-header-categorized6">
           <div className="div923">文學小說</div>
           <div className="div924">{`> `}</div>
-          <Link className="a10" to="/homepage">
+          <Link className="a10" to="/">
             主頁
           </Link>
           <div className="line-div16" />

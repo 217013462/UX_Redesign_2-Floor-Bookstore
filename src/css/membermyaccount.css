@@ -1,0 +1,124 @@
+.boxdefault-div,
+.div108 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.div108 {
+  font-size: 32px;
+  line-height: 140%;
+  color: #285497;
+  display: inline-block;
+}
+.boxdefault-div {
+  border-radius: 20px;
+  background-color: #fff;
+  border: 1px solid #d4d4d4;
+  box-sizing: border-box;
+  width: 400px;
+  height: 170px;
+  overflow: hidden;
+}
+.wishlist-icon {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+.div109,
+.div110 {
+  position: absolute;
+  top: 44px;
+  left: 110px;
+  line-height: 140%;
+  display: inline-block;
+}
+.div110 {
+  top: 100px;
+  font-size: 18px;
+  color: #8f9bb3;
+}
+.coupon-div,
+.order-div,
+.wishlist-div {
+  position: absolute;
+  width: 400px;
+  height: 170px;
+}
+.order-div,
+.wishlist-div {
+  top: 485px;
+}
+.wishlist-div {
+  left: 663px;
+}
+.order-div {
+  left: 223px;
+}
+.coupon-div {
+  top: 275px;
+  left: 663px;
+}
+.credit-card-icon {
+  position: absolute;
+  top: 40px;
+  left: 50px;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+.div115,
+.div116 {
+  position: absolute;
+  top: 44px;
+  left: 120px;
+  line-height: 140%;
+  display: inline-block;
+}
+.div116 {
+  top: 100px;
+  font-size: 18px;
+  color: #8f9bb3;
+}
+.payment-div {
+  top: 275px;
+  left: 223px;
+}
+.payment-div,
+.shipping-div,
+.user-div {
+  position: absolute;
+  width: 400px;
+  height: 170px;
+}
+.shipping-div {
+  top: 65px;
+  left: 663px;
+}
+.user-div {
+  top: 65px;
+  left: 223px;
+}
+.group-div26 {
+  position: relative;
+  width: 1063px;
+  height: 655px;
+  flex-shrink: 0;
+}
+.membermyaccount-div {
+  position: relative;
+  background-color: #fff;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 150px 537px 150px 320px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: 29px;
+  color: #4d79ba;
+  font-family: Merriweather;
+}

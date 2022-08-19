@@ -1,0 +1,254 @@
+.div156 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 140%;
+  display: inline-block;
+}
+.span20 {
+  color: #ff2121;
+}
+.div157 {
+  position: absolute;
+  top: 70px;
+  left: 80px;
+  font-size: 15px;
+  line-height: 140%;
+  font-family: Roboto;
+  display: inline-block;
+}
+.book-hon-no-mushi-woman-1-icon {
+  position: absolute;
+  top: 130px;
+  left: 80px;
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+}
+.span22 {
+  color: #285497;
+}
+.span23 {
+  color: #8f9bb3;
+}
+.p18 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.p19 {
+  margin: 0;
+}
+.div158 {
+  position: absolute;
+  top: 160px;
+  left: 550px;
+  font-size: 18px;
+  line-height: 140%;
+  white-space: pre-wrap;
+  display: inline-block;
+  width: 700px;
+  height: 50px;
+}
+.buttonsprimary6 {
+  width: 120px;
+  position: absolute;
+  top: 585px;
+  left: 250px;
+  cursor: pointer;
+}
+.input-text-fieldno-label3 {
+  width: 634px;
+  border: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.input-text-fieldno-label4 {
+  top: 75px;
+}
+.input-text-fieldno-label4,
+.input-text-fieldno-label5,
+.input-text-fieldno-label6 {
+  width: 634px;
+  border: 0;
+  background-color: transparent;
+  position: absolute;
+  left: 0;
+}
+.input-text-fieldno-label5 {
+  top: 150px;
+}
+.input-text-fieldno-label6 {
+  top: 225px;
+}
+.field-div16 {
+  position: absolute;
+  left: 0;
+}
+.input-text-fieldno-label7 {
+  top: 315px;
+}
+.input-text-fieldno-label7,
+.input-text-fieldno-label8,
+.input-text-fieldno-label9 {
+  width: 634px;
+  border: 0;
+  background-color: transparent;
+  position: absolute;
+  left: 0;
+}
+.input-text-fieldno-label8 {
+  top: 465px;
+}
+.input-text-fieldno-label9 {
+  top: 390px;
+}
+.field-div16 {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 6px;
+  background-color: #eaeaea;
+  border: 1px solid #d4d4d4;
+  box-sizing: border-box;
+}
+.placeholder-text-div15 {
+  position: absolute;
+  top: calc(50% - 8px);
+  left: 12px;
+  display: inline-block;
+}
+.input-text-fielddisabled {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: none;
+}
+.field-div17 {
+  border-radius: 6px;
+  background-color: #fff;
+  border: 1px solid #eb5757;
+  box-sizing: border-box;
+}
+.field-div17,
+.field-div18,
+.input-text-fieldfocused-and-t {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.field-div18 {
+  border-radius: 6px;
+  background-color: #fff;
+  border: 1px solid #3fa2f7;
+  box-sizing: border-box;
+}
+.input-text-fieldfocused-and-t {
+  display: none;
+  color: #333;
+}
+.field-div19 {
+  border-radius: 6px;
+  background-color: #fff;
+  border: 1px solid #d4d4d4;
+  box-sizing: border-box;
+}
+.field-div19,
+.input-text-fielddefault {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.input-text-fieldno-label10 {
+  position: absolute;
+  top: 465px;
+  left: 0;
+  width: 634px;
+  height: 30px;
+  display: none;
+}
+.group-div40 {
+  top: 240px;
+  left: 550px;
+  width: 634px;
+  height: 620px;
+  font-size: 14px;
+  color: #959595;
+  font-family: Roboto;
+}
+.b4,
+.group-div40 {
+  position: absolute;
+}
+.div159,
+.group-div39 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1250px;
+}
+.group-div39 {
+  height: 860px;
+}
+.b4,
+.div159 {
+  line-height: 140%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.b4 {
+  top: 64px;
+  left: 564.61px;
+  font-size: 15px;
+  font-family: Roboto;
+  color: #2758a1;
+  width: 120.77px;
+  cursor: pointer;
+}
+.group-div41 {
+  position: absolute;
+  top: 910px;
+  left: 0;
+  width: 1250px;
+  height: 85px;
+  text-align: center;
+  font-size: 23px;
+  color: #8f9bb3;
+}
+.group-div38 {
+  position: relative;
+  width: 1250px;
+  height: 995px;
+  flex-shrink: 0;
+}
+.searchsentform-div {
+  position: relative;
+  background-color: #fff;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 150px 380px 150px 290px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: 32px;
+  color: #285497;
+  font-family: Merriweather;
+}
