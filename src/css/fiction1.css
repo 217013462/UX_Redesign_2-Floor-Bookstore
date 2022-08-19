@@ -1,0 +1,545 @@
+@keyframes shadow-drop-bottom {
+  0% {
+    box-shadow: 0 0 0 0 transparent;
+  }
+  to {
+    box-shadow: 0 12px 20px -12px rgb(0 0 0/35%);
+  }
+}
+.b21,
+.div827 {
+  line-height: 140%;
+}
+.b21 {
+  position: absolute;
+  top: 0;
+  left: 30px;
+  display: flex;
+  align-items: flex-end;
+  width: 190px;
+  height: 40px;
+}
+.div827 {
+  position: relative;
+  display: inline-block;
+}
+.div826 {
+  position: absolute;
+  top: 50px;
+  left: 60px;
+  height: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: 15px;
+  color: #8f9bb3;
+  font-family: Roboto;
+}
+.categorymenu-div6 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 1px solid #f5f5f5;
+  box-sizing: border-box;
+  width: 220px;
+  height: 540px;
+  overflow: hidden;
+  font-size: 18px;
+  color: #285497;
+  font-family: Merriweather;
+}
+.div828,
+.div830,
+.div832,
+.div834,
+.div836,
+.div838,
+.div840,
+.div842,
+.div844,
+.div846,
+.div848,
+.div850,
+.div852,
+.div854,
+.div856 {
+  position: absolute;
+  top: 80px;
+  left: 60px;
+  height: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.div830,
+.div832,
+.div834,
+.div836,
+.div838,
+.div840,
+.div842,
+.div844,
+.div846,
+.div848,
+.div850,
+.div852,
+.div854,
+.div856 {
+  top: 140px;
+}
+.div832,
+.div834,
+.div836,
+.div838,
+.div840,
+.div842,
+.div844,
+.div846,
+.div848,
+.div850,
+.div852,
+.div854,
+.div856 {
+  top: 200px;
+}
+.div834,
+.div836,
+.div838,
+.div840,
+.div842,
+.div844,
+.div846,
+.div848,
+.div850,
+.div852,
+.div854,
+.div856 {
+  top: 260px;
+}
+.div836,
+.div838,
+.div840,
+.div842,
+.div844,
+.div846,
+.div848,
+.div850,
+.div852,
+.div854,
+.div856 {
+  top: 320px;
+}
+.div838,
+.div840,
+.div842,
+.div844,
+.div846,
+.div848,
+.div850,
+.div852,
+.div854,
+.div856 {
+  top: 380px;
+}
+.div840,
+.div842,
+.div844,
+.div846,
+.div848,
+.div850,
+.div852,
+.div854,
+.div856 {
+  top: 110px;
+}
+.div842,
+.div844,
+.div846,
+.div848,
+.div850,
+.div852,
+.div854,
+.div856 {
+  top: 170px;
+}
+.div844,
+.div846,
+.div848,
+.div850,
+.div852,
+.div854,
+.div856 {
+  top: 230px;
+}
+.div846,
+.div848,
+.div850,
+.div852,
+.div854,
+.div856 {
+  top: 290px;
+}
+.div848,
+.div850,
+.div852,
+.div854,
+.div856 {
+  top: 350px;
+}
+.div850,
+.div852,
+.div854,
+.div856 {
+  top: 410px;
+}
+.div852,
+.div854,
+.div856 {
+  top: 440px;
+}
+.div854,
+.div856 {
+  top: 470px;
+}
+.div856 {
+  top: 500px;
+}
+.fiction-menu-div6 {
+  position: absolute;
+  top: 100px;
+  left: 0;
+  width: 220px;
+  height: 540px;
+}
+.div858,
+.div859 {
+  position: absolute;
+  line-height: 140%;
+  font-family: Merriweather;
+  color: #285497;
+}
+.div858 {
+  top: 10px;
+  left: 10px;
+  font-size: 23px;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  width: 220px;
+  height: 30px;
+}
+.div859 {
+  top: 15px;
+  left: 1342px;
+  font-size: 14px;
+  text-align: right;
+  display: inline-block;
+  cursor: pointer;
+}
+.span209 {
+  text-decoration: line-through;
+}
+.txt-span181 {
+  line-break: anywhere;
+  width: 100%;
+}
+.div860,
+.div861 {
+  position: absolute;
+  height: 5.88%;
+  top: 82.35%;
+  bottom: 11.76%;
+  line-height: 140%;
+}
+.div860 {
+  width: 30.56%;
+  right: 0;
+  left: 69.44%;
+  display: flex;
+  align-items: center;
+}
+.div861 {
+  width: 69.44%;
+  right: 30.56%;
+  left: 0;
+  font-size: 16px;
+  color: #ff2121;
+  display: inline-block;
+}
+.div862 {
+  height: 22.01%;
+  top: 0;
+  bottom: 77.99%;
+  line-height: 140%;
+  font-weight: 500;
+  display: flex;
+  align-items: flex-end;
+}
+.book-cover-icon154,
+.div862,
+.group-div170 {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  left: 0;
+}
+.book-cover-icon154 {
+  height: 75.47%;
+  top: 24.53%;
+  bottom: 0;
+  max-width: 100%;
+  max-height: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+.group-div170 {
+  height: 79.5%;
+  top: 0;
+  bottom: 20.5%;
+  text-align: left;
+  font-size: 15px;
+  color: #285497;
+}
+.group-div170:hover {
+  animation: 1s ease 0s infinite normal none shadow-drop-bottom;
+  opacity: 1;
+}
+.buttondefault153 {
+  width: 170px;
+  position: absolute;
+  top: 358px;
+  left: 5px;
+}
+.book-intro-div142,
+.book-intro-div143 {
+  position: absolute;
+  top: 0;
+  left: 240px;
+  width: 180px;
+  height: 400px;
+}
+.book-intro-div143 {
+  left: 0;
+}
+.book-intro-div144,
+.book-intro-div145,
+.book-intro-div146 {
+  position: absolute;
+  top: 0;
+  left: 480px;
+  width: 180px;
+  height: 400px;
+}
+.book-intro-div145,
+.book-intro-div146 {
+  left: 720px;
+}
+.book-intro-div146 {
+  left: 960px;
+}
+.books-div26,
+.books-div27,
+.books-div28,
+.books-div29 {
+  position: absolute;
+  top: 50px;
+  left: 30px;
+  width: 1140px;
+  height: 400px;
+}
+.books-div27,
+.books-div28,
+.books-div29 {
+  top: 950px;
+}
+.books-div28,
+.books-div29 {
+  top: 500px;
+}
+.books-div29 {
+  top: 1400px;
+}
+.group-icon14,
+.group-icon15 {
+  position: absolute;
+  top: 6px;
+  left: 0;
+  width: 11px;
+  height: 9px;
+}
+.group-icon15 {
+  left: 159px;
+  cursor: pointer;
+}
+.div920,
+.div921,
+.div922 {
+  position: absolute;
+  height: 73.91%;
+  width: 6.5%;
+  top: 8.7%;
+  bottom: 17.39%;
+  display: inline-block;
+  cursor: pointer;
+}
+.div920 {
+  right: 71.54%;
+  left: 21.95%;
+  text-decoration: underline;
+  color: #333;
+}
+.div921,
+.div922 {
+  right: 46.34%;
+  left: 47.15%;
+}
+.div922 {
+  right: 21.14%;
+  left: 72.36%;
+}
+.icons-arrow-drodpdown18,
+.icons-arrow-drodpdown19 {
+  position: absolute;
+  height: 39.13%;
+  width: 4.88%;
+  top: 26.09%;
+  bottom: 34.78%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.icons-arrow-drodpdown18 {
+  right: 0;
+  left: 95.12%;
+  cursor: pointer;
+}
+.icons-arrow-drodpdown19 {
+  right: 95.12%;
+  left: 0;
+}
+.active-icon9 {
+  position: absolute;
+  width: 10.57%;
+  top: 100%;
+  right: 69.92%;
+  left: 19.51%;
+  max-width: 100%;
+  height: 0;
+  display: none;
+}
+.group-div190,
+.paginationnumbered-div8 {
+  position: absolute;
+  top: 0;
+  left: 23px;
+  width: 123px;
+  height: 23px;
+}
+.group-div190 {
+  top: 1850px;
+  left: 515px;
+  width: 170px;
+  text-align: left;
+  font-size: 14px;
+  color: #959595;
+}
+.all-fiction-div6 {
+  position: absolute;
+  top: 100px;
+  left: calc(50% - 480px);
+  width: 1190px;
+  height: 1899px;
+  overflow: hidden;
+  text-align: center;
+  font-size: 12px;
+  color: #c4c4c4;
+}
+.div923 {
+  position: absolute;
+  height: 33.33%;
+  width: 15.49%;
+  top: 0;
+  right: 83.8%;
+  bottom: 66.67%;
+  left: 0.7%;
+  font-size: 23px;
+  line-height: 140%;
+  font-family: Merriweather;
+  display: flex;
+  align-items: center;
+}
+.a10,
+.div924 {
+  position: absolute;
+  height: 22.22%;
+  width: 1.41%;
+  top: 55.56%;
+  right: 93.66%;
+  bottom: 22.22%;
+  left: 4.93%;
+  font-weight: 500;
+  color: #000;
+  display: inline-block;
+}
+.a10 {
+  cursor: pointer;
+  text-decoration: none;
+  width: 2.82%;
+  right: 95.07%;
+  left: 2.11%;
+  color: inherit;
+}
+.line-div16 {
+  position: absolute;
+  height: 1.11%;
+  width: 100.07%;
+  top: 99.44%;
+  right: -0.04%;
+  bottom: -0.56%;
+  left: -0.04%;
+  border-top: 1px solid #c4c4c4;
+  box-sizing: border-box;
+}
+.div925 {
+  position: absolute;
+  height: 22.22%;
+  width: 7.75%;
+  top: 55.56%;
+  right: 85.92%;
+  bottom: 22.22%;
+  left: 6.34%;
+  font-weight: 500;
+  display: inline-block;
+}
+.sub-header-categorized6 {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  width: 1420px;
+  height: 90px;
+  font-size: 16px;
+  color: #285497;
+}
+.fiction-div6 {
+  position: relative;
+  width: 1420px;
+  height: 2010px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.fiction1-div {
+  position: relative;
+  background-color: #fff;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding: 100px 250px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  font-size: 15px;
+  color: #8f9bb3;
+  font-family: Roboto;
+}
