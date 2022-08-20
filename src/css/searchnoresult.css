@@ -87,7 +87,7 @@
   left: 0;
 }
 .input-text-fieldno-label15 {
-  top: 315px;
+  top: 330px;
 }
 .input-text-fieldno-label15,
 .input-text-fieldno-label16,
@@ -99,10 +99,10 @@
   left: 0;
 }
 .input-text-fieldno-label16 {
-  top: 465px;
+  top: 480px;
 }
 .input-text-fieldno-label17 {
-  top: 390px;
+  top: 405px;
 }
 .field-div20 {
   height: 100%;
@@ -204,10 +204,10 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  padding: 150px 380px 150px 290px;
+  padding: 20px 380px 80px 290px;
   box-sizing: border-box;
-  align-items: flex-start;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
   text-align: left;
   font-size: 32px;
   color: #285497;

@@ -6,26 +6,17 @@ import "../css/fictiontranslate.css"
 const FictionTranslate = () => {
   const navigate = useNavigate()
 
-  const onText18Click = useCallback(() => {
-    navigate("/best-selling")
-  }, [navigate])
-
-  const onText79Click = useCallback(() => {
-    navigate("/fiction1")
-  }, [navigate])
-
-  const onText80Click = useCallback(() => {
-    navigate("/fiction2")
-  }, [navigate])
-
-  const onText81Click = useCallback(() => {
-    navigate("/fiction3")
-  }, [navigate])
-
   const onLink1Click = useCallback(() => {
     navigate("/fiction1")
   }, [navigate])
 
+  const onClickTranslate = useCallback(() => {
+    navigate("/fiction-translate")
+  }, [navigate])
+
+  const onClickChinese = useCallback(() => {
+    navigate("/fiction-chinese")
+  }, [navigate])
   
   return (
     <>
@@ -37,11 +28,11 @@ const FictionTranslate = () => {
           <div className="categorymenu-div3">
             <b className="b18">分類</b>
             <div className="div522">
-              <div className="div523">翻譯文學</div>
+              <div className="div523" onClick={onClickTranslate}>翻譯文學</div>
             </div>
           </div>
           <div className="div524">
-            <div className="div523">華文創作</div>
+            <div className="div523" onClick={onClickChinese}>華文創作</div>
           </div>
           <div className="div526">
             <div className="div523">文學研究</div>
@@ -88,9 +79,7 @@ const FictionTranslate = () => {
         </div>
         <div className="all-fiction-div3">
           <div className="div554">翻譯文學</div>
-          <div className="div555" onClick={onText18Click}>
-            查看更多...
-          </div>
+
           <div className="books-div14">
             <div className="book-intro-div82">
               <div className="div556">
@@ -528,13 +517,13 @@ const FictionTranslate = () => {
             </div>
           </div>
           <div className="paginationnumbered-div4">
-            <div className="div616" onClick={onText79Click}>
+            <div className="div616">
               1
             </div>
-            <div className="div617" onClick={onText80Click}>
+            <div className="div617">
               2
             </div>
-            <div className="div618" onClick={onText81Click}>
+            <div className="div618">
               3
             </div>
             <img

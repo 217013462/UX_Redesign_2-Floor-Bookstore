@@ -6,30 +6,17 @@ import "../css/fictionchinese.css"
 const FictionChinese = () => {
   const navigate = useNavigate()
 
-  const onText18Click = useCallback(() => {
-    navigate("/best-selling")
-  }, [navigate])
-
-  const onText79Click = useCallback(() => {
-    navigate("/fiction1")
-  }, [navigate])
-
-  const onText80Click = useCallback(() => {
-    navigate("/fiction2")
-  }, [navigate])
-
-  const onText81Click = useCallback(() => {
-    navigate("/fiction3")
-  }, [navigate])
-
   const onLink1Click = useCallback(() => {
     navigate("/fiction1")
   }, [navigate])
 
-  const onText87Click = useCallback(() => {
-    navigate("/fiction2")
+  const onClickTranslate = useCallback(() => {
+    navigate("/fiction-translate")
   }, [navigate])
 
+  const onClickChinese = useCallback(() => {
+    navigate("/fiction-chinese")
+  }, [navigate])
   
   return (
     <>
@@ -41,11 +28,11 @@ const FictionChinese = () => {
           <div className="categorymenu-div2">
             <b className="b17">分類</b>
             <div className="div418">
-              <div className="div419">翻譯文學</div>
+              <div className="div419" onClick={onClickTranslate}>翻譯文學</div>
             </div>
           </div>
           <div className="div420">
-            <div className="div419">華文創作</div>
+            <div className="div419" onClick={onClickChinese}>華文創作</div>
           </div>
           <div className="div422">
             <div className="div419">文學研究</div>
@@ -92,9 +79,6 @@ const FictionChinese = () => {
         </div>
         <div className="all-fiction-div2">
           <div className="div450">華文創作</div>
-          <div className="div451" onClick={onText18Click}>
-            查看更多...
-          </div>
           <div className="books-div10">
             <div className="book-intro-div62">
               <div className="div452">
@@ -509,13 +493,13 @@ const FictionChinese = () => {
             </div>
           </div>
           <div className="paginationnumbered-div2">
-            <div className="div512" onClick={onText79Click}>
+            <div className="div512">
               1
             </div>
-            <div className="div513" onClick={onText80Click}>
+            <div className="div513">
               2
             </div>
-            <div className="div514" onClick={onText81Click}>
+            <div className="div514">
               3
             </div>
             <img
@@ -547,7 +531,7 @@ const FictionChinese = () => {
         <div className="group-div106">
           <div className="paginationnumbered-div3">
             <div className="div519">1</div>
-            <div className="div513" onClick={onText87Click}>
+            <div className="div513">
               2
             </div>
             <div className="div521">3</div>

@@ -20,7 +20,7 @@ const SearchSentForm = () => {
           <div className="div156">搜尋結果</div>
           <div className="div157">
             <span>{`搜尋  “ `}</span>
-            <span className="span20">宗杖屠守吸尖蛛灸杖宗素伋</span>
+            <span className="span20">J K Rowling New Book</span>
             <span>{` ”  一共找到  `}</span>
             <span className="span20">0</span>
             <span> 個結果 (0.36秒)</span>
@@ -33,7 +33,7 @@ const SearchSentForm = () => {
           <div className="div158">
             <p className="p18">
               <span className="span22">{`對不起！在本店資料庫，找不到包含　“  `}</span>
-              <span className="span23">宗杖屠守吸尖蛛灸杖宗素伋</span>
+              <span className="span23">J K Rowling New Book</span>
               <span> ”　的書，</span>
             </p>
             <p className="p19">
@@ -67,7 +67,7 @@ const SearchSentForm = () => {
             <Form.Group className="input-text-fieldno-label6">
               <Form.Label>ISBN</Form.Label>
               <Form.Control type="text" defaultValue="1234567890" readOnly />
-              <Form.Text>請填上10/13位數</Form.Text>
+              <Form.Text style={{fontSize: "small"}}>請填上10/13位數</Form.Text>
             </Form.Group>
             <Form.Group className="input-text-fieldno-label7">
               <Form.Label>出版日期</Form.Label>
@@ -89,28 +89,6 @@ const SearchSentForm = () => {
                 readOnly
               />
             </Form.Group>
-            <div className="input-text-fieldno-label10">
-              <div className="input-text-fielddisabled">
-                <div className="field-div16" />
-                <div className="placeholder-text-div15">
-                  Placeholder text...
-                </div>
-              </div>
-              <div className="input-text-fielddisabled">
-                <div className="field-div17" />
-                <div className="placeholder-text-div15">
-                  Placeholder text...
-                </div>
-              </div>
-              <div className="input-text-fieldfocused-and-t">
-                <div className="field-div18" />
-                <div className="placeholder-text-div15">Typing|</div>
-              </div>
-              <div className="input-text-fielddefault">
-                <div className="field-div19" />
-                <div className="placeholder-text-div15">請填上你的電郵</div>
-              </div>
-            </div>
           </div>
         </div>
         <div className="group-div41">

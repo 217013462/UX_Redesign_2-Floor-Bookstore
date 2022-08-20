@@ -10,6 +10,10 @@ const BusinessFinance = () => {
     navigate("/best-selling")
   }, [navigate])
 
+  const onClickBiography = useCallback(() => {
+    navigate("/business-finance-biography")
+  }, [navigate])
+
     return (
       <>
         <Container>
@@ -21,7 +25,7 @@ const BusinessFinance = () => {
                   <div className="categorymenu-div1">
                     <b className="b16">分類</b>
                     <div className="div318">
-                      <div className="div319">傳記</div>
+                      <div className="div319" onClick={onClickBiography}>傳記</div>
                     </div>
                   </div>
                   <div className="div320">

@@ -387,7 +387,7 @@
   display: inline-block;
 }
 .a:hover {
-  cursor: auto;
+  cursor: pointer;
 }
 .customer-info-div6 {
   position: absolute;
@@ -538,10 +538,10 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  padding: 160px 370px;
+  padding: 20px 370px;
   box-sizing: border-box;
-  align-items: flex-start;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
   text-align: left;
   font-size: 15px;
   color: #2758a1;

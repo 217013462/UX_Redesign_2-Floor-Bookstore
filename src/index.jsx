@@ -4,6 +4,7 @@ import { BrowserRouter } from 'react-router-dom';
 import App from './App';
 import './css/bootstrap.min.css'
 import './css/index.css'
+import 'antd/dist/antd.css'
 import './css/custom-dropdown-menu.css'
 
 ReactDOM.render(

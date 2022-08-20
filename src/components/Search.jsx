@@ -1,5 +1,5 @@
-import { useCallback } from 'react'
-import { Container, Button } from 'react-bootstrap'
+import { useCallback, useState } from 'react'
+import { Container, Button, Modal } from 'react-bootstrap'
 import { Link, useNavigate } from "react-router-dom"
 import "../css/search.css"
 
@@ -14,10 +14,32 @@ const Search = () => {
     navigate("/book-detail")
   }, [navigate])
   
+  const onClickToCart = useCallback(() => {
+    navigate("/shopping-cart-something")
+  }, [navigate])
+
+  const [show, setShow] = useState(false)
+  const handleClose = () => setShow(false)
+  const handleShow = () => setShow(true)
+  
   return (
     <>
     <Container>
-
+      <Modal show={show} onHide={handleClose}>
+        <Modal.Header closeButton>
+          <Modal.Title><div style={{color: "#4A9715", fontSize:"large"}}><i class="fa-solid fa-circle-check"></i>成功加入購物車</div></Modal.Title>
+        </Modal.Header>
+        <Modal.Body>購物車內共有 <b style={{color: "#CF2A2A"}}>1</b> 件貨品<br/>
+          總計<b style={{color: "#CF2A2A"}}> 123.5 </b>元</Modal.Body>
+        <Modal.Footer>
+          <Button variant="secondary" onClick={handleClose}>
+            繼續購物
+          </Button>
+          <Button variant="primary" onClick={onClickToCart}>
+            查看購物車
+          </Button>
+        </Modal.Footer>
+      </Modal>
         <div className="search-div">
       <div className="search-result-div">
         <div className="jk-rowling-22414-1">
@@ -27,7 +49,7 @@ const Search = () => {
           <span className="jk-rowling-span">22414</span>
           <span> 個結果 (1.49秒)</span>
         </div>
-        <Link className="search-result-sample" to="/book-detail">
+        <div className="search-result-sample">
           <div
             className="the-tales-of-beedle-the-bard3"
             onClick={onTheTalesOfClick}
@@ -70,10 +92,10 @@ const Search = () => {
             src="./img/search/book-cover24@2x.png"
             onClick={onBookCoverImageClick}
           />
-          <Button className="buttondefault23" variant="primary">
+          <Button className="buttondefault23" variant="primary" onClick={handleShow}>
             加入購物車
           </Button>
-        </Link>
+        </div>
         <div className="search-result-sample1">
           <div className="the-tales-of-beedle-the-bard4">
             Quidditch Through the Ages

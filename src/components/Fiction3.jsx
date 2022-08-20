@@ -5,6 +5,13 @@ import "../css/fiction3.css"
 
 const Fiction3 = () => {
   const navigate = useNavigate()
+  const onClickTranslate = useCallback(() => {
+    navigate("/fiction-translate")
+  }, [navigate])
+
+  const onClickChinese = useCallback(() => {
+    navigate("/fiction-chinese")
+  }, [navigate])
 
   const onText18Click = useCallback(() => {
     navigate("/best-selling")
@@ -41,11 +48,11 @@ const Fiction3 = () => {
           <div className="categorymenu-div4">
             <b className="b19">分類</b>
             <div className="div626">
-              <div className="div627">翻譯文學</div>
+              <div className="div627" onClick={onClickTranslate}>翻譯文學</div>
             </div>
           </div>
           <div className="div628">
-            <div className="div627">華文創作</div>
+            <div className="div627" onClick={onClickChinese}>華文創作</div>
           </div>
           <div className="div630">
             <div className="div627">文學研究</div>

@@ -1,6 +1,6 @@
 import React, { useState, useCallback } from 'react'
 import { Container, Carousel, Button } from 'react-bootstrap'
-import { useNavigate } from "react-router-dom"
+import { useNavigate, Link } from "react-router-dom"
 import '../css/homepage.css'
 
 const Homepage = () => {
@@ -36,18 +36,22 @@ const Homepage = () => {
           />
         </Carousel.Item>
         <Carousel.Item>
+          <Link to="/best-selling">
           <img
             className="d-block w-100"
             src="../img/slider2.png"
             alt="Second slide"
           />
+          </Link>
         </Carousel.Item>
         <Carousel.Item>
+          <Link to="/hot-deal">
           <img
             className="d-block w-100"
             src="../img/slider3.png"
             alt="Third slide"
           />
+          </Link>
         </Carousel.Item>
       </Carousel>
     </Container>

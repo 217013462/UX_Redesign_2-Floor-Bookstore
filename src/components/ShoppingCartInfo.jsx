@@ -7,7 +7,7 @@ const ShoppingCartInfo = () => {
   const navigate = useNavigate()
 
   const onButtonsPrimaryClick = useCallback(() => {
-    navigate("/shopping-cart-cofirmation")
+    navigate("/shopping-cart-confirmation")
   }, [navigate])
   
   return (
@@ -78,12 +78,12 @@ const ShoppingCartInfo = () => {
             </div>
           </div>
           <div className="customer-email-div">電郵地址</div>
-          <a
+          <div
             className="customer-email"
-            target="_blank"
+            styl={{textDecoration: "none"}}
           >
             ux_demo@uxdesign.com
-          </a>
+          </div>
           <Form.Check
             className="checkboxlabelall-states-formcheck"
             label="儲存這個電話號碼"
@@ -115,21 +115,6 @@ const ShoppingCartInfo = () => {
             </div>
           </div>
           <div className="customer-name-div3">
-            <div className="disabled-div">
-              <div className="label-div">Label</div>
-              <div className="field-div" />
-              <div className="placeholder-text-div">Placeholder text...</div>
-            </div>
-            <div className="disabled-div">
-              <div className="label-div">Label</div>
-              <div className="field-div1" />
-              <div className="placeholder-text-div1">Placeholder text...</div>
-            </div>
-            <div className="disabled-div">
-              <div className="label-div">Label</div>
-              <div className="field-div2" />
-              <div className="typing-div">Typing|</div>
-            </div>
             <div className="default-div">
               <div className="label-div3">收件人聯絡電話</div>
               <Form.Group className="field-formgroup">
@@ -139,21 +124,6 @@ const ShoppingCartInfo = () => {
             </div>
           </div>
           <div className="customer-name-div4">
-            <div className="disabled-div">
-              <div className="label-div">Label</div>
-              <div className="field-div" />
-              <div className="placeholder-text-div">Placeholder text...</div>
-            </div>
-            <div className="disabled-div">
-              <div className="label-div">Label</div>
-              <div className="field-div1" />
-              <div className="placeholder-text-div1">Placeholder text...</div>
-            </div>
-            <div className="disabled-div">
-              <div className="label-div">Label</div>
-              <div className="field-div2" />
-              <div className="typing-div">Typing|</div>
-            </div>
             <div className="default-div">
               <div className="label-div3">送貨地址</div>
               <div className="field-div15" />
@@ -172,7 +142,8 @@ const ShoppingCartInfo = () => {
             className="checkboxlabelall-states-formcheck3"
             label="設定為預設地址"
           />
-          <Form.Select className="dropdownno-labeldefault-formselect">
+          <div style={{width:"540px"}}>
+          <Form.Select className="dropdownno-labeldefault-formselect" style={{width:"263px"}}>
             <option>分區</option>
             <option value="中環">中環</option>
             <option value="半山區">半山區</option>
@@ -180,25 +151,26 @@ const ShoppingCartInfo = () => {
             <option value="上環">上環</option>
             <option value="堅尼地城">堅尼地城</option>
           </Form.Select>
-          <Form.Select className="dropdownno-labeldefault-formselect1">
+          <Form.Select className="dropdownno-labeldefault-formselect1" style={{width:"263px"}}>
             <option>地區</option>
             <option value="中西區">中西區</option>
             <option value="灣仔">灣仔</option>
             <option value="東區">東區</option>
             <option value="南區">南區</option>
           </Form.Select>
-          <Form.Select className="dropdownno-labeldefault-formselect2">
+          <Form.Select className="dropdownno-labeldefault-formselect2" style={{width:"540px"}}>
             <option>地域</option>
             <option value="香港島">香港島</option>
             <option value="九龍">九龍</option>
             <option value="新界">新界</option>
           </Form.Select>
+            </div>
           <Form.Group className="group-formgroup">
             <Form.Control type="text" placeholder="地址" />
           </Form.Group>
         </div>
         <div className="customer-info-div4">
-          <Form.Select className="dropdownno-labeldefault-formselect3">
+          <Form.Select className="dropdownno-labeldefault-formselect3" style={{width:"540px"}}>
             <option value="信用卡">信用卡</option>
             <option value="PayPal">PayPal</option>
           </Form.Select>

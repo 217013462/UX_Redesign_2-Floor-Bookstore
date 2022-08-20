@@ -148,10 +148,10 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  padding: 100px 260px;
+  padding: 20px 260px;
   box-sizing: border-box;
-  align-items: flex-start;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
   text-align: left;
   font-size: 18px;
   color: #2e3a59;

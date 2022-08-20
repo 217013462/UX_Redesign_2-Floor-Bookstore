@@ -1,6 +1,7 @@
-import { useCallback } from 'react'
-import { Container, Button } from 'react-bootstrap'
+import { useCallback, useState } from 'react'
+import { Container, Button, Modal } from 'react-bootstrap'
 import { useNavigate } from "react-router-dom"
+import { message } from 'antd'
 import "../css/bookdetail.css"
 
 const BookDetail = () => {
@@ -9,18 +10,43 @@ const BookDetail = () => {
   const onText7Click = useCallback(() => {
     navigate("/search")
   }, [navigate])
+
+  const onClickToCart = useCallback(() => {
+    navigate("/shopping-cart-something")
+  }, [navigate])
+
+  const [show, setShow] = useState(false)
+  const handleClose = () => setShow(false)
+  const handleShow = () => setShow(true)
+
+  const successAdd = () => {
+  message.success('成功加入願望清單')}
   
   return (
     <>
     <Container>
-
+      <Modal show={show} onHide={handleClose}>
+        <Modal.Header closeButton>
+          <Modal.Title><div style={{color: "#4A9715", fontSize:"large"}}><i class="fa-solid fa-circle-check"></i>成功加入購物車</div></Modal.Title>
+        </Modal.Header>
+        <Modal.Body>購物車內共有 <b style={{color: "#CF2A2A"}}>1</b> 件貨品<br/>
+          總計<b style={{color: "#CF2A2A"}}> 123.5 </b>元</Modal.Body>
+        <Modal.Footer>
+          <Button variant="secondary" onClick={handleClose}>
+            繼續購物
+          </Button>
+          <Button variant="primary" onClick={onClickToCart}>
+            查看購物車
+          </Button>
+        </Modal.Footer>
+      </Modal>
     <div className="bookdetail-div">
       <div className="group-div30">
         <div className="group-div31">
-          <Button className="add-to-cart" variant="primary">
+          <Button className="add-to-cart" variant="primary" onClick={handleShow}>
             加入購物車
           </Button>
-          <Button className="add-to-cart1" variant="outline-info">
+          <Button className="add-to-cart1" variant="outline-info" onClick={successAdd}>
             加入願望清單
           </Button>
           <div className="book-intro-div15">

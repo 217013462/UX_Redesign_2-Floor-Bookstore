@@ -77,8 +77,6 @@
   left: 986px;
 }
 .search-result-sample {
-  cursor: pointer;
-  text-decoration: none;
   position: absolute;
   top: 111px;
   left: 80px;
@@ -268,7 +266,7 @@
   width: 100%;
   display: flex;
   flex-direction: row;
-  padding: 100px 330px;
+  padding: 20px 330px;
   box-sizing: border-box;
   align-items: center;
   justify-content: center;

@@ -3,11 +3,12 @@ import { Container, Button, Form } from 'react-bootstrap'
 import { useNavigate } from "react-router-dom"
 import "../css/shoppingcartsomething.css"
 
+
 const ShoppingCartSomething = () => {
   const navigate = useNavigate()
 
   const onCancelIconClick = useCallback(() => {
-    navigate("/shopping-cart-nothing")
+    navigate("/shopping-cart")
   }, [navigate])
 
   const onGroupContainer1Click = useCallback(() => {
@@ -88,11 +89,13 @@ const ShoppingCartSomething = () => {
               src="./img/shopping/book-cover15@2x.png"
             />
           </div>
-          <Form.Select className="drop-down-quantitydefault-formselect">
+          <div style={{width: '60px'}}>
+          <Form.Select className="drop-down" style={{width: '60px'}} size="sm">
             <option value="1">1</option>
             <option value="2">2</option>
             <option value="3">3</option>
           </Form.Select>
+          </div>
         </div>
         <div className="group-div24">
           <b className="b2">總計</b>

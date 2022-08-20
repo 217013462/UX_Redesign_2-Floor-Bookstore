@@ -79,8 +79,8 @@ const text18 = `在香港二樓書店購物，當您完成訂購後我們將發�
 const FAQ = () => {
   return (
     <Container>
-      <div style={{ textAlign: "left" }}><h1>常見問題</h1></div>
-      <div style={{ textAlign: "left" }}><h3>關於會員</h3></div>
+      <div style={{ textAlign: "left" }}><h2>常見問題</h2></div>
+      <div style={{ textAlign: "left" }}><h4>關於會員</h4></div>
       <Collapse accordion>
         <Panel header="加入會員有什麼優惠？" key="1">
           <p>{text1}</p>
@@ -98,7 +98,7 @@ const FAQ = () => {
           <p>{text5}</p>
         </Panel>
       </Collapse>
-      <div style={{ textAlign: "left" }}><h3>關於購書</h3></div>
+      <div style={{ textAlign: "left" }}><h4>關於購書</h4></div>
       <Collapse accordion>
         <Panel header="購書流程？" key="11">
           <p>{text11}</p>

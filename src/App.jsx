@@ -24,7 +24,8 @@ import ShoppingCartConfirmation from './components/ShoppingCartConfirmation'
 import ShoppingCartInfo from './components/ShoppingCartInfo'
 import ShoppingCartNothing from './components/ShoppingCartNothing'
 import ShoppingCartSomething from './components/ShoppingCartSomething'
-
+import 'antd/dist/antd.css'
+import './css/bootstrap.min.css'
 
 export default function App() {
 
@@ -90,13 +91,13 @@ export default function App() {
               <Nav.Link><Link to="/hot-deal" className="nav-link">最新優惠</Link></Nav.Link>
             </Nav>
             <Nav className="ms-auto">
+              
               <div class="searchbar">
                 <input type="text" placeholder="搜尋書名 / 作者 / ISBN / 關鍵字" />
                 <div class="icon">
                   <i class="fas fa-search"></i>
-                </div></div>
-
-
+                </div>
+              </div>
 
               <Nav.Link><Link to="/shopping-cart" className="nav-link"><i className='fas fa-shopping-cart'></i></Link></Nav.Link>
               <Nav.Link><Link to="/member" className="nav-link"><i className='fas fa-user'></i></Link></Nav.Link>
@@ -128,12 +129,12 @@ export default function App() {
             <Route path="/search-sent-form" element={<SearchSentForm />} />
             <Route path="/shopping-cart-confirmation" element={<ShoppingCartConfirmation />} />
             <Route path="/shopping-cart-info" element={<ShoppingCartInfo />} />
-            <Route path="/shopping-cart-nothing" element={<ShoppingCartNothing />} />
+            <Route path="/shopping-cart" element={<ShoppingCartNothing />} />
             <Route path="/shopping-cart-something" element={<ShoppingCartSomething />} />
           </Routes>
         </Container>
       </main>
-      <footer>
+      <footer style={{backgroundColor: "#dee2e6"}}>
         <Container>
           <Row>
             <Col xs={4} sm={4} md={4} className='text-center py-3'>
