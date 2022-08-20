@@ -46,8 +46,8 @@ const Member = () => {
             <Form.Control type="text" placeholder="名字" />
           </Form.Group>
           <Form.Group className="password-formgroup1">
-            <Form.Control type="text" defaultValue="密碼" />
-            <Form.Text>至少8個字元</Form.Text>
+            <Form.Control type="text" placeholder="密碼" />
+            <Form.Text style={{fontSize: "small"}}>至少8個字元</Form.Text>
           </Form.Group>
           <Button
             className="buttonsprimary5"
