@@ -20,19 +20,16 @@ const ContactUs = () => {
           <p className="p3">不想以表格跟我們聯絡？</p>
           <p className="p4">你亦可以使用以下方式跟我們聯繫。</p>
         </div>
-        <Button className="buttondefault16" variant="primary" size="lg">
+        <Button className="buttondefault16" variant="primary">
           送出
         </Button>
         <div className="group-div29">
           <div className="div125">
-            <p className="p3">未能於常見問題中找到你想要的答案？</p>
+            <p className="p3">未能於<a style={{color: "red"}} onClick={onText2Click}>常見問題</a>中找到你想要的答案？</p>
             <p className="p4">
               請填寫以下表格提供你的資料及問題，我們會盡快回覆。
             </p>
-          </div>
-          <b className="b3" onClick={onText2Click}>
-            常見問題
-          </b>
+          </div>          
         </div>
         <div className="div126">聯絡我們</div>
         <img className="mail-icon" alt="" src="./img/contactus/mail@2x.png" />

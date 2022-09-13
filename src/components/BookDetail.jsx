@@ -123,7 +123,7 @@ const BookDetail = () => {
               </p>
             </div>
           </div>
-          <div className="div137" onClick={onText7Click}>{`<< 返回上一頁`}</div>
+          <div className="div137" onClick={onText7Click}>{`< 返回上一頁`}</div>
           <div className="books-group-11">
             <div className="book-intro-div16">
               <div className="div138">

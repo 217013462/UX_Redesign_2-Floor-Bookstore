@@ -1,4 +1,4 @@
-import React, { useCallback } from 'react'
+import React, { useCallback, useState } from 'react'
 import { Navbar, Nav, NavDropdown, Container, Dropdown, NavItem, NavLink, Row, Col, Form, Button } from 'react-bootstrap'
 import { BrowserRouter as Router, Routes, Route, Link, useNavigate } from 'react-router-dom'
 import Homepage from './components/Homepage'
@@ -26,6 +26,7 @@ import ShoppingCartNothing from './components/ShoppingCartNothing'
 import ShoppingCartSomething from './components/ShoppingCartSomething'
 import 'antd/dist/antd.css'
 import './css/bootstrap.min.css'
+import { message } from 'antd'
 
 export default function App() {
 
@@ -38,7 +39,18 @@ export default function App() {
   const onClick2 = useCallback(() => {
     navigate("/business-finance")
   }, [navigate])
-  
+
+  const [search, setSearch] = useState("");
+
+  const searchSubmit = (event) => {
+    event.preventDefault();
+    if (search == "J K Rowling") {
+      navigate("/search")
+    } else if (search == "J K Rowling New Book") {
+      navigate("/search-no-result")
+    }
+  }
+
   return (
     <>
       <Navbar bg="primary" variant="dark" expand="lg" collapseOnSelect>
@@ -91,13 +103,16 @@ export default function App() {
               <Nav.Link><Link to="/hot-deal" className="nav-link">最新優惠</Link></Nav.Link>
             </Nav>
             <Nav className="ms-auto">
-              
-              <div class="searchbar">
-                <input type="text" placeholder="搜尋書名 / 作者 / ISBN / 關鍵字" />
+
+                <form class="searchbar" onSubmit={searchSubmit}>
+                  <input type="text"
+                    placeholder="搜尋書名 / 作者 / ISBN / 關鍵字"
+                    value={search}
+                    onChange={(e) => setSearch(e.target.value)}/>
                 <div class="icon">
                   <i class="fas fa-search"></i>
                 </div>
-              </div>
+                </form>
 
               <Nav.Link><Link to="/shopping-cart" className="nav-link"><i className='fas fa-shopping-cart'></i></Link></Nav.Link>
               <Nav.Link><Link to="/member" className="nav-link"><i className='fas fa-user'></i></Link></Nav.Link>
@@ -134,7 +149,7 @@ export default function App() {
           </Routes>
         </Container>
       </main>
-      <footer style={{backgroundColor: "#dee2e6"}}>
+      <footer style={{ backgroundColor: "#dee2e6" }}>
         <Container>
           <Row>
             <Col xs={4} sm={4} md={4} className='text-center py-3'>
