@@ -11,19 +11,17 @@ const Homepage = () => {
     setIndex(selectedIndex)
   }
 
-  const onText1Click = useCallback(() => {
+  const onClickNewRelease = useCallback(() => {
     navigate("/new-release")
   }, [navigate])
 
-  const onText17Click = useCallback(() => {
+  const onClickHotDeal = useCallback(() => {
     navigate("/hot-deal")
   }, [navigate])
 
-  const onText35Click = useCallback(() => {
+  const onClickBestSelling = useCallback(() => {
     navigate("/best-selling")
   }, [navigate])
-
-
 
   return ( <>
     <Container>
@@ -61,7 +59,7 @@ const Homepage = () => {
       <div className="group-div">
         <div className="div">
           <div className="div1">本月新書</div>
-          <div className="div2" onClick={onText1Click}>
+          <div className="div2" onClick={onClickNewRelease}>
             查看更多...
           </div>
           <div className="books-div">
@@ -159,7 +157,7 @@ const Homepage = () => {
           </div>
         </div>
         <div className="div18">
-          <div className="div19" onClick={onText17Click}>
+          <div className="div19" onClick={onClickHotDeal}>
             查看更多...
           </div>
           <div className="div20">最新優惠</div>
@@ -268,7 +266,7 @@ const Homepage = () => {
         </div>
         <div className="div36">
           <div className="div1">暢銷書籍</div>
-          <div className="div38" onClick={onText35Click}>
+          <div className="div38" onClick={onClickBestSelling}>
             查看更多...
           </div>
           <div className="books-div">
